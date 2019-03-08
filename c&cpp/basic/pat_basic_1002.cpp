@@ -24,7 +24,7 @@ int main()
     return 0;
 }
 
-void pinyin(int n)
+inline void pinyin(int n)
 {
     switch(n){
     case 0:

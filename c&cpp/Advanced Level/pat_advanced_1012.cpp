@@ -1,4 +1,5 @@
 #include<cstdio>
+#include<cstring>
 #include<cmath>
 #include<algorithm>
 using namespace std;
@@ -10,6 +11,7 @@ struct Student{
 
 char class_name[5] = {'A', 'C', 'M', 'E'};
 int loc[1000000], grade_flag = -1;
+memset(loc, -1, sizeof(loc));
 
 bool cmp(Student a, Student b){
     return a.grade[grade_flag] > b.grade[grade_flag];

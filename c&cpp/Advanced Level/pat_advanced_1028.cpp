@@ -38,4 +38,5 @@ int main(){
     for(int i=0; i<N; i++){
         printf("%s %s %d\n", stu[i].id, stu[i].name, stu[i].grade);
     }
+    return 0; 
 }

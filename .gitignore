@@ -1,4 +1,2 @@
-/c&cpp/Basic Level/*.o
-/c&cpp/Basic Level/*.exe
-/c&cpp/Advanced Level/*.o
-/c&cpp/Advanced Level/*.exe
+**/*.o
+**/*.exe
